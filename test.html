@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1. header mtlb main ki position ko relitive krna hay or usy before property laga kr set krna hay =
+2. width and height ko 100% krna hay or zindex ko -1 krna hay
+3. opacity kam rakh dain.
+4. main body ko koe image dain.
+5.same before waali property ko dosry section main paste kr dain uski opacity zeada rakhy -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(/hero-bg.jpg);
+            
+
+
+        }
+
+        header {
+            width: 100%;
+            height: 54px;
+            position: relative;
+            color: aliceblue;
+        }
+
+        .navigation {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+
+            padding: 10px;
+
+        }
+
+        .navigation a {
+            text-decoration: none;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-color: black;
+            opacity: 0.6;
+
+        }
+
+        #home::before {
+            content: "";
+            background-image: url(/hero-bg.jpg);
+
+            position: relative;
+            width: 100%;
+            height: 100%;
+            opacity: 0.9;
+        }
+
+        */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+
+
+            <li class="items"><a> Home</a></li>
+            <li class="items"><a> About</a></li>
+            <li class="items"><a>Services</a></li>
+            <li class="items"><a>Timming</a></li>
+            <li class="items"><a>Contact </a></li>
+        </nav>
+    </header>
+    <section id="home">
+        
+    </section>
+</body>
+
+</html>

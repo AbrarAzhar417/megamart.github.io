@@ -1,0 +1,220 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(238, 238, 238, 0.7);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: #1e52ff;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px 116px 0px 90px;
+
+}
+
+.indexh h1 {
+    display: block;
+    color: rgb(53 19 107);
+    margin: auto;
+    width: 400PX;
+    transform: skew(360deg);
+    margin-top: 50px;
+}
+
+
+
+.left h1 {
+    letter-spacing: 0.3em;
+
+    transition: all 1s ease-in-out 0s;
+    display: inline;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: beige;
+}
+
+.mid {
+    display: flex;
+    justify-content: right;
+    margin-top: -41px;
+    padding-bottom: 35px;
+    margin-right: 487px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+}
+
+li {}
+
+.right {
+    display: flex;
+    justify-content: right;
+    margin-top: -70px;
+    padding-bottom: 18px;
+    margin-right: 23px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+ul .btn,
+a {
+    border: 1px solid yellow;
+    margin: 0px 8px;
+    padding: 7px;
+    background-color: #354d27;
+}
+
+ul .btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.mainslider {
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+
+
+    margin-top: 80px;
+
+    background-image: url('slider.jpg');
+
+    box-shadow: 2px 3px 30px rgb(0, 0, 0);
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('hero-bg.jpg');
+        <h1>Welcome TO Zavian Mobiles And Computers</h1>
+    }
+
+    50% {
+        background-image: url('slid.jpg');
+
+    }
+
+    80% {
+        background-image: url('slid.jpg');
+
+
+    }
+
+}
+
+.card {
+    display: flex;
+    height: 362px;
+    width: 1346px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.maindiv {
+    width: 900px;
+    height: 413px;
+    margin: 30px;
+}
+
+.divpic img {
+    display: block;
+    margin: 39px;
+    width: 143px;
+    height: 134px;
+}
+
+.divtital {
+    line-height: 0;
+}
+
+.divtital h4 {
+    position: relative;
+    left: 10px;
+}
+
+.divtital p {
+    position: relative;
+    left: 10px;
+
+}
+
+.divbtn {
+    position: relative;
+    left: 10px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.signup {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 650px;
+    height: 500px;
+    box-shadow: 2px 7px 3px 4px rgb(0, 0, 0);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.signup form input {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+pre {
+    font-style: normal;
+    margin-left: 100px;
+    margin-top: 50px;
+    ;
+    line-height: 40px;
+font-size: larger;    
+font-weight: 300px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.card button {
+    border: 1px solid rgb(37, 8, 83);
+    margin: 0px 8px;
+    padding: 7px;
+    background-color: #15e3ed;
+}
+
+.card button:hover {
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
+}
+
+.card a:hover {
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
+}
+.mainpic{
+    display: block;
+}
+.pic img{
+    width: 400px;
+float: right;
+margin-right: 20px;
+margin-top: 20px;}
